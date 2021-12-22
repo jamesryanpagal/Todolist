@@ -64,7 +64,7 @@ const LoginForm = ({ setSignup }) => {
         />
         {/* PASSWORD */}
         <input
-          type="text"
+          type="password"
           name="password"
           placeholder="Password"
           onChange={handleChange}

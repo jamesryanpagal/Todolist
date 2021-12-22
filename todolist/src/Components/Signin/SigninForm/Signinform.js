@@ -90,14 +90,14 @@ const Signinform = ({ setSignup }) => {
         />
         {/* PASSWORD */}
         <input
-          type="text"
+          type="password"
           name="password"
           placeholder="Password"
           onChange={handleChange}
         />
         {/* CONFIRM PASSWORD */}
         <input
-          type="text"
+          type="password"
           name="confirmpassword"
           placeholder="Confirm password"
           onChange={handleChange}
