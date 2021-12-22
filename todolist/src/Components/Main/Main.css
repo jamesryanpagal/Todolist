@@ -94,6 +94,7 @@
   margin: auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 0 15px;
 }
 
@@ -114,6 +115,17 @@
   align-items: center;
   border-radius: 50%;
   color: #fff;
+}
+
+/* HEADER STATUS button */
+.main_Container .header_Container .status_Container button {
+  border: none;
+  border-radius: 50px;
+  background: #273240;
+  height: 25px;
+  width: 80px;
+  cursor: pointer;
+  color: rgb(211, 93, 93);
 }
 
 /* TODO */
