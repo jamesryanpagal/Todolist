@@ -10,7 +10,7 @@ const loginController = async (req, res) => {
       $or: [{ email }, { username: email }],
     });
     if (!findEmail) {
-      error.errorMessage = "Email dont exist";
+      error.errorMessage = "Invalid email or password";
       res.json(error);
       return;
     }
@@ -18,7 +18,7 @@ const loginController = async (req, res) => {
     // check password
     const checkPassword = await findEmail.verifyPassword(password);
     if (!checkPassword) {
-      error.errorMessage = "wrong password";
+      error.errorMessage = "Invalid email or password";
       res.json(error);
       return;
     }
