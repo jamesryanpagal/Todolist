@@ -1,0 +1,23 @@
+.spinner_Container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 40px;
+  width: 40px;
+}
+
+.spinner_Container .spinner {
+  border: transparent solid 3px;
+  border-top-color: black;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  animation: spin ease-in-out infinite 0.5s;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

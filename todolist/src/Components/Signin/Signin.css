@@ -1,0 +1,23 @@
+.signin_Container {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* TODO IMAGE CONTAINER */
+.signin_Container .todoImage_Container {
+  height: 70%;
+  width: 50%;
+}
+
+/* TODO IMAGE */
+.signin_Container .todoImage_Container img {
+  height: 100%;
+  width: 100%;
+}
+
+/* SIGNIN FORM CONTAINER */
+.signin_Container .signinForm_Container {
+  width: 40%;
+}

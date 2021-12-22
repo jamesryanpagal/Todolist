@@ -1,0 +1,168 @@
+.main_Container {
+  height: 100%;
+  width: 50%;
+  margin: auto;
+  padding: 30px 0;
+  overflow-y: scroll;
+  position: relative;
+}
+
+/* HEADER */
+.main_Container .header_Container {
+  background: #4779b8;
+  border-radius: 20px;
+  width: 80%;
+  margin: auto;
+  height: 25vh;
+  padding: 10px;
+}
+
+/* SUB HEADER */
+.main_Container .header_Container .subHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+/* SUB HEADER USER ICON */
+.main_Container .header_Container .subHeader .userIcon {
+  border: #273240 solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 53px;
+  border-radius: 50%;
+  background: #273240;
+  color: #fff;
+}
+
+/* SUB HEADER SEARCH CONTAINER */
+.main_Container .header_Container .subHeader .search_Container {
+  width: 88%;
+  overflow: hidden;
+  display: flex;
+  border-radius: 50px;
+  background: #273240;
+}
+
+/* SUB HEADER SEARCH CONTAINER BUTTON */
+.main_Container .header_Container .subHeader .search_Container button {
+  border: none;
+  padding: 10px 15px;
+  background: none;
+  color: #fff;
+}
+
+/* SUB HEADER SEARCH CONTAINER INPUT */
+.main_Container .header_Container .subHeader .search_Container input {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 15px;
+  font-size: 15px;
+  background: none;
+  color: #fff;
+}
+
+/* HEADER GREET CONTAINER */
+.main_Container .header_Container .greet_Container {
+  width: 90%;
+  padding: 0 10px;
+  margin: 20px auto;
+  font-size: 30px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+/* HEADER GREET CONTAINER BUTTON */
+.main_Container .header_Container .greet_Container button {
+  border: none;
+  color: green;
+  background: rgb(175, 235, 175);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+/* HEADER STATUS */
+.main_Container .header_Container .status_Container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+/* HEADER STATUS h4 */
+.main_Container .header_Container .status_Container h4 {
+  display: flex;
+  align-items: center;
+  color: #4b4b4b;
+}
+
+/* HEADER STATUS span */
+.main_Container .header_Container .status_Container span {
+  margin: 0 5px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #fff;
+}
+
+/* TODO */
+.main_Container .todo {
+  background: #1e2631;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+/* TODO ACTIONS */
+.main_Container .todo .actions_Container {
+  display: flex;
+  justify-content: space-around;
+  width: 70px;
+}
+
+/* TODO ACTIONS BUTTON i */
+.main_Container .todo .actions_Container button i {
+  pointer-events: none;
+}
+
+/* TODO ACTIONS DONE */
+.main_Container .todo .actions_Container .done {
+  border: none;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background: none;
+  color: green;
+}
+
+/* TODO ACTIONS DELETE */
+.main_Container .todo .actions_Container .delete {
+  border: none;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background: none;
+  color: red;
+}
+
+/* TODO ACTIONS h3 */
+.main_Container .todo h3 {
+  width: 80%;
+  margin: auto;
+  color: #fff;
+}
